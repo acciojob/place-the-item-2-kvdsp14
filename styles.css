@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+   div:nth-child(odd){
+	   background-color: green;
+	   padding: 50px;
+	
+}
+
+.holder .even{
+	background-color: red;
+	padding: 50px;
+	
+}
